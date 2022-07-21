@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Ubuntu:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2D2E4F;
+  color: #A4EFF5;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  display: block;
+  margin-top: 8vmin;
+  font-size: 8.5vmin;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #75C783;
+}
+form{
+  display: grid;
+  place-items: center;
+  width: 95vw;
+  height: auto;
+  margin: 5vmin auto;
+  padding: 5vmin 0;
+  border: .2vmin solid #75C783;
+  border-radius: 0 6vmin 0 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+label{
+  display: block;
+  text-align: center;
+  font-size: 4vmin;
+  margin-top: 7vmin;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+input{
+  display: block;
+  width: 70vmin;
+  height: 10vmin;
+  margin: auto;
+  margin-top: 2vmin;
+  text-align: center;
+  font-size: 4.2vmin;
+  border: .1vmin solid #75C783;
+  border-radius: 0 0 0 2vmin;
+  background-color: #fff1;
+  color: #75C783;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+::placeholder{
+  font-size: 3.6vmin;
+  color: #A4EFF54F;
+}
+
+button{
+  display: block;
+  width: 50vw;
+  height: 10vmin;
+  margin: auto;
+  margin-top: 10vmin;
+  margin-bottom: 5vmin;
+  text-align: center;
+  font-size: 5vmin;
+  border: none;
+  background-color: #75C783;
+  border-radius: 50vmin;
+  letter-spacing: 2px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+textarea{
+  display: block;
+  width: 70vw;
+  height: 40vmin;
+  margin-top: 2vmin;
+  border: .1vmin solid #75C783;
+  border-radius: 0 0 0 4vmin;
+  background-color: #fff1;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+}
